@@ -1,0 +1,9 @@
+#masodik p{
+    background-color: aqua;
+}
+#masodik a{
+    color: black;
+}
+.title:nth-child(0){
+    background-color: brown;
+    }
