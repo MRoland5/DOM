@@ -1,4 +1,4 @@
-console.dir(document);
+/*console.dir(document);
 console.log(document.head)
 console.log(document.all)
 document.all[8].textContent="Masik Cim"
@@ -19,4 +19,10 @@ let elsolink= document.querySelector("#elso p");
 elsolink.style.color="red";
 console.log(document.querySelectorAll("#list h2"))
 let lista=document.querySelectorAll(".title")
-lista[1].style.color="red"
+lista[1].style.color="red"*/
+let newDiv = document.createElement("div");
+let text = document.createTextNode("irj ide be a valamit")
+newDiv.appendChild(text);
+ let container = document.getElementById("list");
+ let firstH2 = document.querySelector("#list li")
+ container.insertBefore(newDiv, firstH2.lastChild.nextSibling);
